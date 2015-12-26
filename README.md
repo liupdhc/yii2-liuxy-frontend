@@ -1,17 +1,26 @@
-liuxy admin module.
+liuxy frontend module.
 =======================
-This module provide admin managing system for your yii2 application.
+提供基于Yii2的前台主题管理模板
 
 
-Configuration
+配置
 -------------
 
-Edit `module` section in your backend application config file:
+编辑配置文件中的 `module` 部分:
 
 ```php
 'modules' => [
-    'admin' => [
+    'frontend' => [
         'class' => 'liuxy\frontend\Module'
     ]
 ]
 ```
+
+同时在params.php文件加入模板名称
+```php
+return [
+    'template' => 'default'
+]
+```
+
+@see[范例](https://github.com/liupdhc/yii2-liuxy-themes).部分的frontend集成
