@@ -1,0 +1,29 @@
+{
+    "name": "liuxy/yii2-frontend",
+    "version": "1.0.0",
+    "description": "Yii2 frontend template https://github.com/liupdhc/yii2-liuxy-frontend",
+    "keywords": ["yii", "frontend", "auth", "rbac"],
+    "license": "BSD-3-Clause",
+    "type": "yii2-extension",
+    "authors": [
+        {
+            "name": "liupeng",
+            "email": "liupdhc@126.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "liuxy\\frontend\\": ""
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0.6",
+        "liuxy/yii2-extension": "~1.1.1",
+        "liuxy/yii2-themes": "~1.0.1"
+    },
+    "extra": {
+        "bootstrap": "liuxy\\frontend\\Bootstrap"
+    }
+}
