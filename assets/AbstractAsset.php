@@ -7,6 +7,7 @@
 
 namespace liuxy\frontend\assets;
 
+use Yii;
 use yii\web\AssetBundle;
 
 abstract class AbstractAsset extends AssetBundle {
